@@ -17,6 +17,3 @@ class Anagram
     anagrams
   end
 end
-
-anagram_maker = Anagram.new("fruits")
-anagram_maker.match(["toots", "strufi", "frutis", "banjo"])
