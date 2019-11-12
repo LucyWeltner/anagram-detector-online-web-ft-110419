@@ -10,8 +10,7 @@ class Anagram
       word.split("")
     end
     aoa_of_characters.each do |i|
-      if i - char_array == [] && i.length == char_array.length
-        p i - char_array 
+      if i - char_array == [] && char_array - i == [] && i.length == char_array.length
         anagrams << i.join
       end
     end 
