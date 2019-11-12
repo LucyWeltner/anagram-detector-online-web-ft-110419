@@ -4,8 +4,12 @@ class Anagram
   end
   
   def match(array)
+    anagrams = []
     char_array = @word.split
     aoa_of_characters = array.map do |word|
-      word.split("")
+      word.split
     end
-      if aoa_of_characters[i] - char_array = []
+    aoa_of_characters.each |i| do
+      if i - char_array == []
+        anagrams << i.join
+      end
