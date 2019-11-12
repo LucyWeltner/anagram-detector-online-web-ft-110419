@@ -6,7 +6,6 @@ class Anagram
   def match(array)
     anagrams = []
     char_array = @word.split("")
-    p char_array
     aoa_of_characters = array.map do |word|
       word.split("")
     end
