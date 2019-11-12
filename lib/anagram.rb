@@ -9,11 +9,9 @@ class Anagram
     aoa_of_characters = array.map do |word|
       word.split("")
     end
-    p aoa_of_characters
     aoa_of_characters.each do |i|
       if i - char_array == []
         anagrams << i.join
-        p "adding #{i.join}"
       end
     end 
     anagrams
