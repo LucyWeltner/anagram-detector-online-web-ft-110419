@@ -11,6 +11,7 @@ class Anagram
     end
     aoa_of_characters.each do |i|
       if i - char_array == [] && i.length == char_array.length
+        p i - char_array 
         anagrams << i.join
       end
     end 
