@@ -13,3 +13,7 @@ class Anagram
       if i - char_array == []
         anagrams << i.join
       end
+    end 
+    anagrams
+  end
+end
