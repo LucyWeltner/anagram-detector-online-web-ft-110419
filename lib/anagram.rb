@@ -7,7 +7,7 @@ class Anagram
     anagrams = []
     char_array = @word.split
     aoa_of_characters = array.map do |word|
-      word.split
+      word.split("")
     end
     aoa_of_characters.each |i| do
       if i - char_array == []
